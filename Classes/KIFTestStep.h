@@ -500,4 +500,8 @@ typedef enum {
  */
 + (id)stepToWaitForFirstResponderWithAccessibilityLabel:(NSString *)label;
 
++ (id)stepToClearField: (NSString *)label traits:(UIAccessibilityTraits)traits expectedResult:(NSString *)expectedResult;
+
++ (id)stepToClearField: (NSString *)label;
+
 @end
